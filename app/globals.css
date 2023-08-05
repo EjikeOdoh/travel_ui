@@ -25,3 +25,13 @@ body {
     )
     rgb(var(--background-start-rgb));
 } */
+
+.active {
+  width: 32px;
+  height: 8px;
+  background-color: #38bdf8;
+  display: inline-block;
+  border-radius: 4px;
+  position: absolute;
+  transform: translateX(-50%);
+}

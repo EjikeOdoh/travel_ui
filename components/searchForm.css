@@ -1,0 +1,50 @@
+/* styles/index.module.css */
+.searchForm {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.background {
+  background-color: #f0f0f0;
+}
+
+.searchForm h2 {
+  margin-bottom: 10px;
+}
+
+.searchForm form label {
+  display: block;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.searchForm form input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.searchForm form button {
+  display: block;
+  margin-top: 10px;
+  padding: 8px 12px;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  min-width: 50%;
+  margin: auto;
+  font-weight: bold;
+}
+
+.searchForm form button:hover {
+  background-color: transparent;
+  color: black;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
