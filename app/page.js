@@ -8,6 +8,7 @@ import Contact from "@/components/Contact";
 
 import Tabs from "@/components/Tabs";
 import SearchForm from "@/components/SearchForm";
+import Navbar from "@/components/Navbar";
 
 const HomePage = ({ repo }) => {
   const flightsData = [
@@ -34,6 +35,7 @@ const HomePage = ({ repo }) => {
 
   return (
     <div>
+      <Navbar />
       <Tabs />
       <SearchForm />
       <Slider data={slides} />

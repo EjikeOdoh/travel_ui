@@ -6,7 +6,6 @@ import { HiMenuAlt1 } from "react-icons/hi";
 import { AiOutlineCloseSquare, AiOutlinePhone } from "react-icons/ai";
 import { BiHomeAlt2 } from "react-icons/bi";
 
-import logo from "../public/mbtronics.png";
 const Navbar = () => {
   const [nav, setNav] = useState(false);
 
@@ -38,7 +37,7 @@ const Navbar = () => {
           {nav ? (
             <AiOutlineCloseSquare size="3rem" color="white" />
           ) : (
-            <HiMenuAlt1 size="2rem" color={logo ? "" : "white"} />
+            <HiMenuAlt1 size="2rem" color="black" />
           )}
         </div>
       </div>
